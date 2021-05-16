@@ -2,10 +2,12 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-class Net(nn.Module):                                                                    #creates model class
+#creates Net (Nueral Network) class
+class Net(nn.Module):
     def __init__(self):
         super(Net, self).__init__()
-
+        
+        #fancy math
         self.conv1 = nn.Conv2d(1, 80, kernel_size = 5)
         self.conv2 = nn.Conv2d(80, 80, kernel_size = 5)
 
