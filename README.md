@@ -2,8 +2,6 @@
 
 - Heavily annotared main.py to make understanding computer vision a little easier
 
-- This uses an American Sign Language dataset I used to substitute for Rock Paper and Scissors where a=rock, b=paper, and v=scissors so when testing accuracy keep that in mind.
-
 ## Description
 
 - Uses PyTorch and OpenCV to create a hand Rock Paper Scissors (RPS) real time webcam identifier.
@@ -12,6 +10,9 @@
 
 ![alt text](https://github.com/UltraPotato2/Rock-Paper-Siccors-Computer-Vision/blob/main/RPS-dataset/example.png)
 
+## Things to keep in mind
+ - This uses an American Sign Language dataset I used to substitute for Rock Paper and Scissors where a=rock, b=paper, and v=scissors so when testing accuracy keep that in mind.
+ - Keep as much of your hand in the green box as possible for good results
 ## Dependencies
 ```
 Python 3
