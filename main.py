@@ -11,7 +11,7 @@ cap.set(4, 480)
 #Creats Nueral Network object with trained .pt file
 model = torch.load("model_trained.pt")
 model.eval()
-#Dictionary that gives information about output layer including how many, and what they correlate to
+#Dictionary that gives information about output layer including how many, and whqat they correlate to
 signs = {'0': 'ROCK', '1': 'PAPER', '2': 'SCISSORS' }
 #Live feed of camera, will end when break conditon (press q is met)
 while True:        
