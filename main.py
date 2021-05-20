@@ -8,7 +8,7 @@ cap = cv2.VideoCapture(0)
 #sets resolution
 cap.set(3, 700)
 cap.set(4, 480)
-#Creats Nueral Network object with trained .pt file
+#Creats Nueral Network object with trained .pt file also uses Net class
 model = torch.load("model_trained.pt")
 model.eval()
 #Dictionary that gives information about output layer including how many, and whqat they correlate to
